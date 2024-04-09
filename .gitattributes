@@ -1,0 +1,31 @@
+# Set default behavior for text files
+* text=auto
+
+# Denote all files that are truly binary and should not be modified
+*.png binary
+*.jpg binary
+*.gif binary
+
+# Set specific behavior for certain file types
+# For Java files:
+*.java linguist-language=Java
+
+# For JSP files:
+*.jsp linguist-language=JavaServer Pages
+
+# For XML files (common in Java web applications):
+*.xml linguist-language=XML
+
+# For Servlet configuration files (web.xml):
+web.xml linguist-language=XML
+
+# For HTML files (if any):
+*.html linguist-language=HTML
+
+# For CSS files (if any):
+*.css linguist-language=CSS
+
+# For JavaScript files (if any):
+*.js linguist-language=JavaScript
+
+# You can add more language definitions as needed
